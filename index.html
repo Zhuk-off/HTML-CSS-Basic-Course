@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="html, резюме, первый сайт" />
+    <meta name="description" content="Резюме HTML" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Резюме</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card bg-white aboutMe">
+        <img src="/332E3111-A255-404E-9EF2-CE8542A2691D.jpg" alt="Фото" />
+        <div class="about">
+          <h1><strong>Жуков Александр</strong></h1>
+          <p>
+            Я продавец-консультант в магазине <strong><em>Спец№1</em></strong> в
+            г. Витебске. Продаю <strong>электроинструмент</strong>.
+          </p>
+          <p>
+            В свободное время люблю <em>читать</em>, кататься на
+            <em>мотоцикле</em>, проводить <em>время с друзьями.</em>
+          </p>
+
+          <p><strong>Список социалных сетей:</strong></p>
+          <a
+            href="https://www.instagram.com/zhukoff.alexander/?hl=ru"
+            target="_blank"
+            ><strong>Instagram</strong></a
+          ><strong> | </strong
+          ><a
+            href="https://www.instagram.com/zhukoff.alexander/?hl=ru"
+            target="_blank"
+            ><strong>Instagram</strong></a
+          ><strong> | </strong
+          ><a
+            href="https://www.instagram.com/zhukoff.alexander/?hl=ru"
+            target="_blank"
+            ><strong>Instagram</strong></a
+          >
+        </div>
+      </div>
+
+      <div class="card bg-green">
+        <h3><strong>Мои хобби:</strong></h3>
+        <ol class="list">
+          <li>Программирование</li>
+          <li>Чтение книг</li>
+          <li>Мото</li>
+          <li>Путешествия</li>
+        </ol>
+      </div>
+
+      <div class="card bg-red">
+        <h3>Опыт работы</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Название</th>
+              <th>Должность</th>
+              <th>Год</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Проектировщик систем видеонаблюдения</td>
+              <td>Проектировщик</td>
+              <td>2012-2013</td>
+            </tr>
+            <tr>
+              <td>Магазин Спец1 (электро, бензоинструмент)</td>
+              <td>Продавец-консультант</td>
+              <td>2014-2021</td>
+            </tr>
+            <tr>
+              <td>Повышение квалификации</td>
+              <td>Frontend-разработчик</td>
+              <td>2022-...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card bg-blue">
+        <form action="#" class="form">
+          <h3>Связаться со мной</h3>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="text">Ваше имя:</label>
+              <input type="text" id="text" placeholder="Введите имя" />
+            </div>
+            <div class="form-group">
+              <label for="email">Ваш email:</label>
+              <input type="email" id="email" placeholder="Введите email" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="textArea">Введите сообщение:</label>
+            <textarea
+              name=""
+              id="textArea"
+              cols="30"
+              rows="10"
+              placeholder="Введите сообщение..."
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Отправить форму</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

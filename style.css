@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  background-color: #dfe6de;
+  font-family: 'Roboto', sans-serif;
+  color: #262f2e;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+ol {
+  text-decoration: underline;
+}
+
+a {
+  color: #4b6d82;
+  text-decoration: none;
+}
+a:hover {
+  color: #084f7a;
+}
+
+a:active {
+  color: #112938;
+}
+
+.card {
+  border: #4b6d82;
+  border-radius: 5px;
+  background: #f4f6f5;
+  padding: 5px 5px 20px 20px;
+  margin-bottom: 10px;
+}
+
+.aboutMe {
+  display: flex;
+}
+
+.card img {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  width: 250px;
+  height: 100%;
+  display: block;
+  margin-top: 25px;
+}
+.about {
+  padding-left: 15px;
+}
+.bg-green {
+  background: #c5dfd3;
+}
+.bg-blue {
+  background: #c1cbdb;
+}
+.bg-red {
+  background: #f1d1e1;
+}
+.bg-white {
+  background: #f4ffff;
+}
+
+.btn {
+  background: #4b6d82;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  box-shadow: inset 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.list li {
+  padding-bottom: 3px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td:hover {
+  background: #eeefff;
+}
+
+.table tr:nth-child(odd) {
+  background: #eee;
+}
+
+.table td:nth-child(2),
+td:nth-child(4) {
+  background: #fffeee;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-group input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-row .form-group {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+  .aboutMe {
+    display: block;
+  }
+  .card img {
+    margin-top: 15px;
+  }
+  .about {
+    padding-left: 5px;
+  }
+}
+@media (max-width: 400px) {
+  .form-row {
+    display: block;
+  }
+
+  .form-row .form-group {
+    width: 100%;
+  }
+}
